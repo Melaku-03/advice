@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_dic {
+    @apply absolute bg-neon-green cursor-pointer rounded-full w-14 h-14 flex justify-center items-center bottom-0 left-1/2 transform -translate-x-1/2 translate-y-7 hover:shadow-custom-shadow;
+}
+
+.tracking-widder{
+    letter-spacing: 3px;
+}
